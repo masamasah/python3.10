@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  python3.10:
+    image: python:3.10.0rc1-buster
+    volumes:
+      - ./src:/src
+    tty: true
+    working_dir: /src
