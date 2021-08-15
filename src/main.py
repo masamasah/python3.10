@@ -21,7 +21,7 @@ class Crow:
 def can_pet(animal: Dog | Cat):
     pass
 
-# lesson1
+# 数値リテラルのパターン
 def lesson_1():
     def http_error(status):
         match status:
@@ -34,7 +34,7 @@ def lesson_1():
 
     http_error(400)
 
-# lesson2
+# defaultのパターン
 def lesson_2():
 
     def http_error(status):
@@ -52,7 +52,7 @@ def lesson_2():
 
     http_error(405)
 
-# lesson3
+# 自作型のパターン
 def lesson_3():
 
     def is_dog(animal):
@@ -80,7 +80,7 @@ def lesson_3():
     print(is_pet(cat))    
     print(is_pet(crow))    
 
-# lesson4
+# メンバ変数でのパターン
 def lesson_4():
 
     def is_mypet(animal):
@@ -101,7 +101,7 @@ def lesson_4():
     print(is_mypet(anotherDog))    
     print(is_mypet(crow))    
 
-# lesson5
+# メンバ変数パターンでのワイルドカード
 def lesson_5():
 
     def is_Chihuahua(animal):
@@ -123,7 +123,7 @@ def lesson_5():
     print(is_Chihuahua(chihuahua_2))    
     print(is_Chihuahua(crow))    
 
-#lesson6
+#バインディング
 def lesson_6():
     def build_message(animal):
         match animal:
@@ -177,7 +177,7 @@ def lesson_7():
     print(build_message(crow))  
 """
 
-# lesson8
+# バインディング
 def lesson_8():
     # https://www.python.org/dev/peps/pep-0635/#overview-and-terminology
 
@@ -199,7 +199,7 @@ def lesson_8():
 
     print(build_message(anotherDog))
 
-# lesson9
+# バインディング list
 def lesson_9():
     l = [1,2,3,4,5]
     match l:
