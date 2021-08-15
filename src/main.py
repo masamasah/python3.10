@@ -18,7 +18,6 @@ class Crow:
     name: str
 
 # TypeUnion
-
 def can_pet(animal: Dog | Cat):
     pass
 
